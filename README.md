@@ -1,20 +1,20 @@
 # online_library
 
-##This application uses jwt to generate web tokens which can be used for logging in to the application.
+## This application uses jwt to generate web tokens which can be used for logging in to the application.
 
 End point urls:
 For regular user:
 http://localhost:3000/library/v1/books/ HTTP GET <br>
-http://localhost:3000/library/v1/book/2 HTP GET
-more routes available in index.js file under routes folder
+http://localhost:3000/library/v1/book/2 HTP GET <br>
+more routes available in index.js file under routes folder <br>
 
 For admin:
-http://localhost:3000/library/v1/admin/users  HTTP GET
-http://localhost:3000/library/v1/admin/user/2 HTTP GET
+http://localhost:3000/library/v1/admin/users  HTTP GET <br>
+http://localhost:3000/library/v1/admin/user/2 HTTP GET <br>
 
 =======================================================================
-There is no validation implemented for logging in to the application, however to view book details or user details validated user is required.
-login URL: http://localhost:3000/login HTTP POST
+There is no validation implemented for logging in to the application, however to view book details or user details validated user is required. <br>
+login URL: http://localhost:3000/login HTTP POST <br>
 sample payload:
 {
 "username" : "jyo@innovify.com",
