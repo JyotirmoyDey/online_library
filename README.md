@@ -4,7 +4,7 @@
 
 End point urls:
 For regular user:
-http://localhost:3000/library/v1/books/ HTTP GET
+http://localhost:3000/library/v1/books/ HTTP GET <br>
 http://localhost:3000/library/v1/book/2 HTP GET
 more routes available in index.js file under routes folder
 
