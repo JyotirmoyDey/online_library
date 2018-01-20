@@ -30,7 +30,7 @@ x-key          : the userId. <br>
 
 ======================================================================= <br>
 To check admin access urls proper functioning: <br>
-change routes/auth.js  line 45 from role: admin to user. We will get a 403 Not Authorized error. <br>
+change routes/auth.js  line 45 from role: admin to user.<br> We will get a 403 Not Authorized error. <br>
 
 
 
